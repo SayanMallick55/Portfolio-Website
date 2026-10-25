@@ -1,0 +1,81 @@
+
+export const projects = [
+  {
+    id: 'edunova',
+    name: 'EduNova',
+    category: 'AI + EdTech',
+    status: 'In Progress',
+    description:
+      'An AI-powered classroom analytics platform that uses computer vision to monitor student attention, automate attendance, and provide classroom insights.',
+    features: [
+      'Attention monitoring with computer vision',
+      'Automated attendance workflows',
+      'Insight dashboards for classroom analytics',
+    ],
+    techStack: ['Python', 'OpenCV', 'Flask', 'Pandas'],
+    primaryAction: 'GitHub',
+    secondaryAction: 'Live Demo',
+    color: '#38bdf8',
+    orbit: 'station-orbit-a',
+    positionClass: 'project-position-edunova',
+  },
+  {
+    id: 'samadhan',
+    name: 'Samadhan Portal',
+    category: 'Full Stack',
+    githubUrl: 'https://github.com/yourusername/samadhan-portal',
+    liveUrl: 'https://samadhan-portal.vercel.app',
+    description:
+      'A role-based grievance management system with User, Admin, and Super Admin dashboards.',
+    features: [
+      'Grievance tracking lifecycle',
+      'Admin and Super Admin control layers',
+    ],
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+    primaryAction: 'GitHub',
+    secondaryAction: 'Live Demo',
+    color: '#a78bfa',
+    orbit: 'station-orbit-d',
+    positionClass: 'project-position-samadhan',
+  },
+  {
+    id: 'samriddh-dsa-pilot',
+    name: 'Samriddh DSA Pilot',
+    category: 'AI + Chrome Extension',
+    githubUrl: 'https://github.com/SayanMallick55/Samriddh-DSA-Pilot',
+    liveUrl: 'https://samriddh-dsa-pilot.vercel.app',
+    description:
+      'An AI-powered DSA copilot Chrome extension designed to provide progressive hints by analyzing coding problems and the user’s evolving code.',
+    features: [
+      'Coding problem extraction',
+      'Progressive, context-aware hints',
+      'Updated code analysis between hints',
+    ],
+    techStack: ['JavaScript', 'Chrome Extension APIs', 'AI APIs'],
+    primaryAction: 'GitHub',
+    secondaryAction: 'Live Demo',
+    color: '#34d399',
+    orbit: 'station-orbit-e',
+    positionClass: 'project-position-samriddh',
+  },
+  {
+    id: 'portfolio',
+    name: 'Personal Portfolio',
+    category: 'Web Development',
+    githubUrl: 'https://github.com/yourusername/personal-portfolio',
+    liveUrl: 'https://your-portfolio.vercel.app',
+    description:
+      'A personal developer portfolio showcasing my projects, technical skills, and work in software development and AI.',
+    features: [
+      'Interactive project showcase',
+      'Responsive user interface',
+      'Modern visual design and animations',
+    ],
+    techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Vite'],
+    primaryAction: 'GitHub',
+    secondaryAction: 'Live Demo',
+    color: '#fbbf24',
+    orbit: 'station-orbit-f',
+    positionClass: 'project-position-portfolio',
+  },
+];
